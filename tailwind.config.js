@@ -10,6 +10,10 @@ export default {
     colors: {
       cyan: colors.cyan,
       stone: colors.stone,
+      fuchsia: colors.fuchsia,
+      red: colors.red,
+      black: colors.black,
+      yellow: colors.yellow,
     },
   },
   plugins: [],
