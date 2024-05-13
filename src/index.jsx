@@ -2,12 +2,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import Leader from "./pages/Leader";
-import Match from "./pages/Match";
-import Login from "./pages/Login";
-
-
-
+import Main from "./pages/Main";
 
 export default function App() {
   return (
@@ -15,14 +10,11 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="home" element={<Home />} />
-          <Route path="leader" element={<Leader />} />
-          <Route path="match" element={<Match />} />
+          <Route path="main" element={<Main />} />
 
-          
+
         </Route>
-        <Route>
-          <Route path="login" element={<Login />} />
-        </Route>
+
       </Routes>
     </BrowserRouter>
   );

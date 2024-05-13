@@ -7,6 +7,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    extend: {
+      backgroundImage: {
+        'background': './heritageheal.png'
+      }
+    },
+      
     colors: {
       cyan: colors.cyan,
       stone: colors.stone,
@@ -14,6 +20,7 @@ export default {
       red: colors.red,
       black: colors.black,
       yellow: colors.yellow,
+      green: colors.green
     },
   },
   plugins: [],
